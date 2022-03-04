@@ -1,14 +1,20 @@
 # Laravel 8 Files/Folders Management
 
-This is a blank [Laravel](https://laravel.com) project that will connect to any prismic.io repository. It uses the prismic.io PHP development kit, and provides a few helpers to integrate with a Laravel website.
+This is a [Laravel](https://laravel.com) project to manage folder stucture.
 
 ## Getting started
+
+### Requirement to setup this project
+  - PHP 7.3
+  - Composer
+  - Apache server
+  - Mysql
 
 ### Launch the starter project
 
 _(Assuming you've [installed Laravel](https://laravel.com/docs/5.5/installation))_
 
-Fork this repository, then clone your fork, and run this in your newly created directory:
+ clone this repository, and run bellow commont in your newly created directory:
 
 ```bash
 - Clone the repository with git clone
