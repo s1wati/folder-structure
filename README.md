@@ -36,7 +36,7 @@ Run the following command to create table in database:
 Run the following command to link storage to public:
 
 ```
-- Run php artisan storage:link
+- php artisan storage:link
 ```
 
 Then start your server:
