@@ -33,14 +33,15 @@ class FolderController extends Controller
     public function show($id)
     {
         $folder = Folder::findOrFail($id);
-
-        return view('front.folders.show', compact('folder'));
+        $categories = Folder::where('parent_id', '=', null)->get();
+        return view('front.folders.show', compact('folder', 'categories'));
     }
 
     public function index()
     {
         $folder = Folder::first();
-        return view('front.folders.index', compact('folder'));
+        $categories = Folder::where('parent_id', '=', null)->get();
+        return view('front.folders.index', compact('folder', 'categories'));
 
     }
 
